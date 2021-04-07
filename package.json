@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./node_modules/typescript/bin/tsc",
     "start": "node lib/server/start.js",
-    "test": "jest src --collectCoverage --reporters='jest-nyancat-reporter'"
+    "test": "./node_modules/jest/bin/jest.js src --collectCoverage --reporters='jest-nyancat-reporter'"
   },
   "author": "",
   "license": "ISC",

@@ -2,7 +2,7 @@ build:
 	npm install
 	npm run build
 test:
-	jest src --collectCoverage --reporters='jest-nyancat-reporter'
+	./node_modules/jest/bin/jest.js src --collectCoverage --reporters='jest-nyancat-reporter'
 
 all:
-	make test build
+	make build test
